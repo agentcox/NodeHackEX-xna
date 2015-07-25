@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="NodeDefinition.BoardWaveDefines">
+    <WaveDefines>
+      <Item>
+        <waveNumber>1</waveNumber>
+        <mapSize>11</mapSize>
+        <ratioCashToExit>0.10</ratioCashToExit>
+        <collapseSecondsString>00:30.00</collapseSecondsString>
+        <aiSpawnsPerMinute>6</aiSpawnsPerMinute>
+        <aiSpawnsTotal>4</aiSpawnsTotal>
+        <aiWaitToFirstSpawnSeconds>10</aiWaitToFirstSpawnSeconds>
+        <mapNodeDensity>0.45</mapNodeDensity>
+        <mapMaxBridgeLength>3</mapMaxBridgeLength>
+        <totalCashDensity>0.50</totalCashDensity>
+        <blackCashDensity>0.20</blackCashDensity>
+        <yellowCashDensity>0.40</yellowCashDensity>
+        <heatseekerDensity>0.20</heatseekerDensity>
+        <multimissileDensity>0.20</multimissileDensity>
+        <speedUpFactor>1.0</speedUpFactor>
+      </Item>
+      <Item>
+        <waveNumber>2</waveNumber>
+        <mapSize>15</mapSize>
+        <ratioCashToExit>0.25</ratioCashToExit>
+        <collapseSecondsString>00:35.00</collapseSecondsString>
+        <aiSpawnsPerMinute>8</aiSpawnsPerMinute>
+        <aiSpawnsTotal>8</aiSpawnsTotal>
+        <aiWaitToFirstSpawnSeconds>20</aiWaitToFirstSpawnSeconds>
+        <mapNodeDensity>0.50</mapNodeDensity>
+        <mapMaxBridgeLength>3</mapMaxBridgeLength>
+        <totalCashDensity>0.50</totalCashDensity>
+        <blackCashDensity>0.25</blackCashDensity>
+        <yellowCashDensity>0.35</yellowCashDensity>
+        <heatseekerDensity>0.20</heatseekerDensity>
+        <multimissileDensity>0.20</multimissileDensity>
+        <speedUpFactor>1.25</speedUpFactor>
+      </Item>
+    </WaveDefines>
+  </Asset>
+</XnaContent>

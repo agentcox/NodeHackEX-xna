@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="NodeDefinition.BoardEventDefines">
+    <EventDefines>
+      <Item>
+        <type>5</type>
+        <typedatastring>6.0,6.0,1.0</typedatastring>
+        <trigger>0</trigger>
+        <triggerdatastring>00:00.00</triggerdatastring>
+      </Item>
+      <Item>
+        <type>0</type>
+        <typedatastring>Level 1: Cakewalk</typedatastring>
+        <trigger>0</trigger>
+        <triggerdatastring>00:01.00</triggerdatastring>
+      </Item>
+      <Item>
+        <type>4</type>
+        <typedatastring>6,6</typedatastring>
+        <trigger>0</trigger>
+        <triggerdatastring>00:02.00</triggerdatastring>
+      </Item>
+      <Item>
+        <type>0</type>
+        <typedatastring>Target: $550,000</typedatastring>
+        <trigger>0</trigger>
+        <triggerdatastring>00:04.00</triggerdatastring>
+      </Item>
+      <Item>
+        <type>2</type>
+        <typedatastring></typedatastring>
+        <trigger>0</trigger>
+        <triggerdatastring>00:10.00</triggerdatastring>
+      </Item>
+      <Item>
+        <type>1</type>
+        <typedatastring></typedatastring>
+        <trigger>0</trigger>
+        <triggerdatastring>00:12.00</triggerdatastring>
+      </Item>
+      <Item>
+        <type>2</type>
+        <typedatastring></typedatastring>
+        <trigger>0</trigger>
+        <triggerdatastring>00:30.00</triggerdatastring>
+      </Item>
+      <Item>
+        <type>1</type>
+        <typedatastring></typedatastring>
+        <trigger>0</trigger>
+        <triggerdatastring>00:32.00</triggerdatastring>
+      </Item>
+      <Item>
+        <type>1</type>
+        <typedatastring></typedatastring>
+        <trigger>0</trigger>
+        <triggerdatastring>00:40.00</triggerdatastring>
+      </Item>
+      <Item>
+        <type>2</type>
+        <typedatastring></typedatastring>
+        <trigger>1</trigger>
+        <triggerdatastring>550000</triggerdatastring>
+      </Item>
+      <Item>
+        <type>1</type>
+        <typedatastring></typedatastring>
+        <trigger>0</trigger>
+        <triggerdatastring>01:02.00</triggerdatastring>
+      </Item>
+      <Item>
+        <type>1</type>
+        <typedatastring></typedatastring>
+        <trigger>0</trigger>
+        <triggerdatastring>01:10.00</triggerdatastring>
+      </Item>
+      <Item>
+        <type>1</type>
+        <typedatastring></typedatastring>
+        <trigger>0</trigger>
+        <triggerdatastring>01:18.00</triggerdatastring>
+      </Item>
+      <Item>
+        <type>0</type>
+        <typedatastring>Exit Open!</typedatastring>
+        <trigger>1</trigger>
+        <triggerdatastring>550000</triggerdatastring>
+      </Item>
+      <Item>
+        <type>3</type>
+        <typedatastring>6,6</typedatastring>
+        <trigger>1</trigger>
+        <triggerdatastring>550000</triggerdatastring>
+      </Item>
+      <!--<Item>
+        <type>0</type>
+        <typedatastring>Exit Open!</typedatastring>
+        <trigger>0</trigger>
+        <triggerdatastring>00:5.00</triggerdatastring>
+      </Item>
+      <Item>
+        <type>3</type>
+        <typedatastring>6,6</typedatastring>
+        <trigger>0</trigger>
+        <triggerdatastring>00:5.00</triggerdatastring>
+      </Item>-->
+
+    </EventDefines>
+
+
+  </Asset>
+</XnaContent>

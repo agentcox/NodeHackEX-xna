@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <!-- TODO: replace this Asset with your own XML asset data. -->
+  <Asset Type="NodeDefinition.BoardWaveDefines">
+    <WaveDefines>
+      <Item> 
+        <!--THIS IS WAVE 1 (Ensure the number below matches)-->
+        <waveNumber>1</waveNumber>
+        <mapSize>7</mapSize>
+        <waveTitle>"A Simple Plan..."</waveTitle>
+        <hintText>Hint: Steal the Loot!</hintText>
+        <ratioCashToExit>0.50</ratioCashToExit>
+        <collapseSecondsString>00:60.00</collapseSecondsString>
+        <aiSpawnsPerMinute>0</aiSpawnsPerMinute>
+        <aiSpawnsTotal>0</aiSpawnsTotal>
+        <aiWaitToFirstSpawnSeconds>0</aiWaitToFirstSpawnSeconds>
+        <mapNodeDensity>1.0</mapNodeDensity>
+        <mapMaxBridgeLength>2</mapMaxBridgeLength>
+        <totalCashDensity>0.30</totalCashDensity>
+        <blackCashDensity>0.00</blackCashDensity>
+        <yellowCashDensity>0.00</yellowCashDensity>
+        <heatseekerDensity>0.00</heatseekerDensity>
+        <multimissileDensity>0.00</multimissileDensity>
+        <mortarDensity>0.00</mortarDensity>
+        <bonusRound>false</bonusRound>
+        <speedUpFactor>1.0</speedUpFactor>
+      </Item>
+      <Item>
+        <!--THIS IS WAVE 2 (Ensure the number below matches)-->
+        <waveNumber>2</waveNumber>
+        <mapSize>9</mapSize>
+        <waveTitle>"First Encounters"</waveTitle>
+        <hintText>Drag to See More!</hintText>
+        <ratioCashToExit>0.50</ratioCashToExit>
+        <collapseSecondsString>00:60.00</collapseSecondsString>
+        <aiSpawnsPerMinute>60</aiSpawnsPerMinute>
+        <aiSpawnsTotal>1</aiSpawnsTotal>
+        <aiWaitToFirstSpawnSeconds>15</aiWaitToFirstSpawnSeconds>
+        <mapNodeDensity>0.65</mapNodeDensity>
+        <mapMaxBridgeLength>2</mapMaxBridgeLength>
+        <totalCashDensity>0.40</totalCashDensity>
+        <blackCashDensity>0.00</blackCashDensity>
+        <yellowCashDensity>0.30</yellowCashDensity>
+        <heatseekerDensity>0.00</heatseekerDensity>
+        <multimissileDensity>0.00</multimissileDensity>
+        <mortarDensity>0.00</mortarDensity>
+        <bonusRound>false</bonusRound>
+        <speedUpFactor>1.0</speedUpFactor>
+      </Item>
+      <Item>
+        <!--THIS IS WAVE 3 (Ensure the number below matches)-->
+        <waveNumber>3</waveNumber>
+        <mapSize>13</mapSize>
+        <waveTitle>"Weapons Hot"</waveTitle>
+        <hintText>Don't Waste Weapons!</hintText>
+        <ratioCashToExit>0.35</ratioCashToExit>
+        <collapseSecondsString>00:45.00</collapseSecondsString>
+        <aiSpawnsPerMinute>5</aiSpawnsPerMinute>
+        <aiSpawnsTotal>6</aiSpawnsTotal>
+        <aiWaitToFirstSpawnSeconds>5</aiWaitToFirstSpawnSeconds>
+        <mapNodeDensity>0.55</mapNodeDensity>
+        <mapMaxBridgeLength>2</mapMaxBridgeLength>
+        <totalCashDensity>0.40</totalCashDensity>
+        <blackCashDensity>0.00</blackCashDensity>
+        <yellowCashDensity>0.60</yellowCashDensity>
+        <heatseekerDensity>0.00</heatseekerDensity>
+        <multimissileDensity>0.30</multimissileDensity>
+        <mortarDensity>0.00</mortarDensity>
+        <bonusRound>false</bonusRound>
+        <speedUpFactor>1.2</speedUpFactor>
+      </Item>
+      <Item>
+        <!--THIS IS WAVE 4 (Ensure the number below matches)-->
+        <waveNumber>4</waveNumber>
+        <mapSize>11</mapSize>
+        <waveTitle>"The Glass House"</waveTitle>
+        <hintText>RUN!</hintText>
+        <ratioCashToExit>0.70</ratioCashToExit>
+        <collapseSecondsString>00:50.00</collapseSecondsString>
+        <aiSpawnsPerMinute>8</aiSpawnsPerMinute>
+        <aiSpawnsTotal>12</aiSpawnsTotal>
+        <aiWaitToFirstSpawnSeconds>2</aiWaitToFirstSpawnSeconds>
+        <mapNodeDensity>0.75</mapNodeDensity>
+        <mapMaxBridgeLength>2</mapMaxBridgeLength>
+        <totalCashDensity>0.55</totalCashDensity>
+        <blackCashDensity>0.00</blackCashDensity>
+        <yellowCashDensity>0.30</yellowCashDensity>
+        <heatseekerDensity>0.00</heatseekerDensity>
+        <multimissileDensity>0.40</multimissileDensity>
+        <mortarDensity>0.00</mortarDensity>
+        <bonusRound>true</bonusRound>
+        <speedUpFactor>1.2</speedUpFactor>
+      </Item>
+      <Item>
+        <!--THIS IS WAVE 5 (Ensure the number below matches)-->
+        <waveNumber>5</waveNumber>
+        <mapSize>17</mapSize>
+        <waveTitle>"Heatseekers"</waveTitle>
+        <hintText>Use Head-On!</hintText>
+        <ratioCashToExit>0.35</ratioCashToExit>
+        <collapseSecondsString>00:35.00</collapseSecondsString>
+        <aiSpawnsPerMinute>10</aiSpawnsPerMinute>
+        <aiSpawnsTotal>6</aiSpawnsTotal>
+        <aiWaitToFirstSpawnSeconds>10</aiWaitToFirstSpawnSeconds>
+        <mapNodeDensity>0.50</mapNodeDensity>
+        <mapMaxBridgeLength>3</mapMaxBridgeLength>
+        <totalCashDensity>0.45</totalCashDensity>
+        <blackCashDensity>0.30</blackCashDensity>
+        <yellowCashDensity>0.50</yellowCashDensity>
+        <heatseekerDensity>0.20</heatseekerDensity>
+        <multimissileDensity>0.0</multimissileDensity>
+        <mortarDensity>0.00</mortarDensity>
+        <bonusRound>false</bonusRound>
+        <speedUpFactor>1.4</speedUpFactor>
+      </Item>
+      <Item>
+        <!--THIS IS WAVE 6 (Ensure the number below matches)-->
+        <waveNumber>6</waveNumber>
+        <mapSize>17</mapSize>
+        <waveTitle>"Firestorm"</waveTitle>
+        <hintText>RUN!</hintText>
+        <ratioCashToExit>0.50</ratioCashToExit>
+        <collapseSecondsString>00:40.00</collapseSecondsString>
+        <aiSpawnsPerMinute>8</aiSpawnsPerMinute>
+        <aiSpawnsTotal>16</aiSpawnsTotal>
+        <aiWaitToFirstSpawnSeconds>2</aiWaitToFirstSpawnSeconds>
+        <mapNodeDensity>0.75</mapNodeDensity>
+        <mapMaxBridgeLength>2</mapMaxBridgeLength>
+        <totalCashDensity>0.55</totalCashDensity>
+        <blackCashDensity>0.00</blackCashDensity>
+        <yellowCashDensity>0.50</yellowCashDensity>
+        <heatseekerDensity>0.40</heatseekerDensity>
+        <multimissileDensity>0.00</multimissileDensity>
+        <mortarDensity>0.00</mortarDensity>
+        <bonusRound>true</bonusRound>
+        <speedUpFactor>1.4</speedUpFactor>
+      </Item>
+      <Item>
+        <!--THIS IS WAVE 7 (Ensure the number below matches)-->
+        <waveNumber>7</waveNumber>
+        <mapSize>19</mapSize>
+        <waveTitle>"Long Distance"</waveTitle>
+        <hintText>Pinch to Zoom!</hintText>
+        <ratioCashToExit>0.40</ratioCashToExit>
+        <collapseSecondsString>00:40.00</collapseSecondsString>
+        <aiSpawnsPerMinute>5</aiSpawnsPerMinute>
+        <aiSpawnsTotal>6</aiSpawnsTotal>
+        <aiWaitToFirstSpawnSeconds>10</aiWaitToFirstSpawnSeconds>
+        <mapNodeDensity>0.45</mapNodeDensity>
+        <mapMaxBridgeLength>3</mapMaxBridgeLength>
+        <totalCashDensity>0.40</totalCashDensity>
+        <blackCashDensity>0.30</blackCashDensity>
+        <yellowCashDensity>0.50</yellowCashDensity>
+        <heatseekerDensity>0.00</heatseekerDensity>
+        <multimissileDensity>0.30</multimissileDensity>
+        <mortarDensity>0.00</mortarDensity>
+        <bonusRound>false</bonusRound>
+        <speedUpFactor>1.4</speedUpFactor>
+      </Item>
+      <Item>
+        <!--THIS IS WAVE 8 (Ensure the number below matches)-->
+        <waveNumber>8</waveNumber>
+        <mapSize>19</mapSize>
+        <waveTitle>"Mortars"</waveTitle>
+        <hintText>Use Up Close!</hintText>
+        <ratioCashToExit>0.45</ratioCashToExit>
+        <collapseSecondsString>00:40.00</collapseSecondsString>
+        <aiSpawnsPerMinute>5</aiSpawnsPerMinute>
+        <aiSpawnsTotal>8</aiSpawnsTotal>
+        <aiWaitToFirstSpawnSeconds>5</aiWaitToFirstSpawnSeconds>
+        <mapNodeDensity>0.55</mapNodeDensity>
+        <mapMaxBridgeLength>3</mapMaxBridgeLength>
+        <totalCashDensity>0.45</totalCashDensity>
+        <blackCashDensity>0.20</blackCashDensity>
+        <yellowCashDensity>0.60</yellowCashDensity>
+        <heatseekerDensity>0.00</heatseekerDensity>
+        <multimissileDensity>0.00</multimissileDensity>
+        <mortarDensity>0.30</mortarDensity>
+        <bonusRound>false</bonusRound>
+        <speedUpFactor>1.4</speedUpFactor>
+      </Item>
+      <Item>
+        <!--THIS IS WAVE 9 (Ensure the number below matches)-->
+        <waveNumber>9</waveNumber>
+        <mapSize>21</mapSize>
+        <waveTitle>"The Boneyard"</waveTitle>
+        <hintText>Don't Get Cornered!</hintText>
+        <ratioCashToExit>0.35</ratioCashToExit>
+        <collapseSecondsString>00:30.00</collapseSecondsString>
+        <aiSpawnsPerMinute>10</aiSpawnsPerMinute>
+        <aiSpawnsTotal>8</aiSpawnsTotal>
+        <aiWaitToFirstSpawnSeconds>15</aiWaitToFirstSpawnSeconds>
+        <mapNodeDensity>0.45</mapNodeDensity>
+        <mapMaxBridgeLength>4</mapMaxBridgeLength>
+        <totalCashDensity>0.55</totalCashDensity>
+        <blackCashDensity>0.40</blackCashDensity>
+        <yellowCashDensity>0.60</yellowCashDensity>
+        <heatseekerDensity>0.30</heatseekerDensity>
+        <multimissileDensity>0.10</multimissileDensity>
+        <mortarDensity>0.00</mortarDensity>
+        <bonusRound>false</bonusRound>
+        <speedUpFactor>1.4</speedUpFactor>
+      </Item>
+      <Item>
+      <!--THIS IS WAVE 10 (Ensure the number below matches)-->
+      <waveNumber>10</waveNumber>
+      <mapSize>21</mapSize>
+      <waveTitle>"Danger Close"</waveTitle>
+      <hintText>Use Mortars!</hintText>
+      <ratioCashToExit>0.30</ratioCashToExit>
+      <collapseSecondsString>00:45.00</collapseSecondsString>
+      <aiSpawnsPerMinute>10</aiSpawnsPerMinute>
+      <aiSpawnsTotal>20</aiSpawnsTotal>
+      <aiWaitToFirstSpawnSeconds>2</aiWaitToFirstSpawnSeconds>
+      <mapNodeDensity>0.85</mapNodeDensity>
+      <mapMaxBridgeLength>3</mapMaxBridgeLength>
+      <totalCashDensity>0.55</totalCashDensity>
+      <blackCashDensity>0.40</blackCashDensity>
+      <yellowCashDensity>0.60</yellowCashDensity>
+      <heatseekerDensity>0.00</heatseekerDensity>
+      <multimissileDensity>0.00</multimissileDensity>
+      <mortarDensity>0.40</mortarDensity>
+      <bonusRound>true</bonusRound>
+      <speedUpFactor>1.6</speedUpFactor>
+      </Item>
+      <Item>
+        <!--THIS IS WAVE 11 (Ensure the number below matches)-->
+        <waveNumber>11</waveNumber>
+        <mapSize>23</mapSize>
+        <waveTitle>"Wall Street"</waveTitle>
+        <hintText>Watch Your Exits!</hintText>
+        <ratioCashToExit>0.30</ratioCashToExit>
+        <collapseSecondsString>00:30.00</collapseSecondsString>
+        <aiSpawnsPerMinute>10</aiSpawnsPerMinute>
+        <aiSpawnsTotal>10</aiSpawnsTotal>
+        <aiWaitToFirstSpawnSeconds>10</aiWaitToFirstSpawnSeconds>
+        <mapNodeDensity>0.75</mapNodeDensity>
+        <mapMaxBridgeLength>4</mapMaxBridgeLength>
+        <totalCashDensity>0.65</totalCashDensity>
+        <blackCashDensity>0.60</blackCashDensity>
+        <yellowCashDensity>0.40</yellowCashDensity>
+        <heatseekerDensity>0.30</heatseekerDensity>
+        <multimissileDensity>0.20</multimissileDensity>
+        <mortarDensity>0.00</mortarDensity>
+        <bonusRound>false</bonusRound>
+        <speedUpFactor>1.6</speedUpFactor>
+      </Item>
+      <Item>
+      <!--THIS IS WAVE 12 (Ensure the number below matches)-->
+      <waveNumber>12</waveNumber>
+      <mapSize>23</mapSize>
+      <waveTitle>"Bonanza"</waveTitle>
+      <hintText>Survive!</hintText>
+      <ratioCashToExit>0.45</ratioCashToExit>
+      <collapseSecondsString>00:40.00</collapseSecondsString>
+      <aiSpawnsPerMinute>30</aiSpawnsPerMinute>
+      <aiSpawnsTotal>10</aiSpawnsTotal>
+      <aiWaitToFirstSpawnSeconds>2</aiWaitToFirstSpawnSeconds>
+      <mapNodeDensity>0.75</mapNodeDensity>
+      <mapMaxBridgeLength>2</mapMaxBridgeLength>
+      <totalCashDensity>0.55</totalCashDensity>
+      <blackCashDensity>0.50</blackCashDensity>
+      <yellowCashDensity>0.50</yellowCashDensity>
+      <heatseekerDensity>0.20</heatseekerDensity>
+      <multimissileDensity>0.20</multimissileDensity>
+      <mortarDensity>0.20</mortarDensity>
+      <bonusRound>true</bonusRound>
+      <speedUpFactor>1.6</speedUpFactor>
+      </Item>
+      <Item>
+        <!--THIS IS WAVE 13 (Ensure the number below matches)-->
+        <waveNumber>13</waveNumber>
+        <mapSize>25</mapSize>
+        <waveTitle>"The Fortress"</waveTitle>
+        <hintText>They're Everywhere...</hintText>
+        <ratioCashToExit>0.40</ratioCashToExit>
+        <collapseSecondsString>00:30.00</collapseSecondsString>
+        <aiSpawnsPerMinute>15</aiSpawnsPerMinute>
+        <aiSpawnsTotal>12</aiSpawnsTotal>
+        <aiWaitToFirstSpawnSeconds>10</aiWaitToFirstSpawnSeconds>
+        <mapNodeDensity>0.65</mapNodeDensity>
+        <mapMaxBridgeLength>4</mapMaxBridgeLength>
+        <totalCashDensity>0.65</totalCashDensity>
+        <blackCashDensity>0.70</blackCashDensity>
+        <yellowCashDensity>0.30</yellowCashDensity>
+        <heatseekerDensity>0.30</heatseekerDensity>
+        <multimissileDensity>0.30</multimissileDensity>
+        <mortarDensity>0.00</mortarDensity>
+        <bonusRound>false</bonusRound>
+        <speedUpFactor>1.8</speedUpFactor>
+      </Item>
+      <Item>
+        <!--THIS IS WAVE 14 (Ensure the number below matches)-->
+        <waveNumber>14</waveNumber>
+        <mapSize>29</mapSize>
+        <waveTitle>"The End"</waveTitle>
+        <hintText>They've Found You...</hintText>
+        <ratioCashToExit>0.50</ratioCashToExit>
+        <collapseSecondsString>00:30.00</collapseSecondsString>
+        <aiSpawnsPerMinute>20</aiSpawnsPerMinute>
+        <aiSpawnsTotal>16</aiSpawnsTotal>
+        <aiWaitToFirstSpawnSeconds>10</aiWaitToFirstSpawnSeconds>
+        <mapNodeDensity>0.75</mapNodeDensity>
+        <mapMaxBridgeLength>4</mapMaxBridgeLength>
+        <totalCashDensity>0.75</totalCashDensity>
+        <blackCashDensity>0.80</blackCashDensity>
+        <yellowCashDensity>0.20</yellowCashDensity>
+        <heatseekerDensity>0.30</heatseekerDensity>
+        <multimissileDensity>0.20</multimissileDensity>
+        <mortarDensity>0.00</mortarDensity>
+        <bonusRound>false</bonusRound>
+        <speedUpFactor>2.0</speedUpFactor>
+      </Item>
+      <Item>
+        <!--THIS IS WAVE 15 (Ensure the number below matches)-->
+        <waveNumber>15</waveNumber>
+        <mapSize>29</mapSize>
+        <waveTitle>"Scorched Earth"</waveTitle>
+        <hintText>Your Last Heist...</hintText>
+        <ratioCashToExit>0.30</ratioCashToExit>
+        <collapseSecondsString>00:60.00</collapseSecondsString>
+        <aiSpawnsPerMinute>20</aiSpawnsPerMinute>
+        <aiSpawnsTotal>16</aiSpawnsTotal>
+        <aiWaitToFirstSpawnSeconds>5</aiWaitToFirstSpawnSeconds>
+        <mapNodeDensity>0.75</mapNodeDensity>
+        <mapMaxBridgeLength>2</mapMaxBridgeLength>
+        <totalCashDensity>0.75</totalCashDensity>
+        <blackCashDensity>0.90</blackCashDensity>
+        <yellowCashDensity>0.10</yellowCashDensity>
+        <heatseekerDensity>0.00</heatseekerDensity>
+        <multimissileDensity>0.00</multimissileDensity>
+        <mortarDensity>0.60</mortarDensity>
+        <bonusRound>true</bonusRound>
+        <speedUpFactor>2.0</speedUpFactor>
+      </Item>
+    </WaveDefines>
+  </Asset>
+</XnaContent>
